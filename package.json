@@ -4,7 +4,7 @@
    "description": "",
    "main": "calculateDistancePoints.js",
    "scripts": {
-      "test": "mocha calculateDistancePoints.test.js calculateStylePoints.test.js",
+      "test": "mocha calculateDistancePoints.test.js calculateStylePoints.test.js calculateTotalPoints.test.js",
       "test:watch": "onchange \"./*.js\" -- npm test",
       "gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore"
    },
