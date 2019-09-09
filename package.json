@@ -1,0 +1,19 @@
+{
+   "name": "32.5",
+   "version": "1.0.0",
+   "description": "",
+   "main": "calculateDistancePoints.js",
+   "scripts": {
+      "test": "mocha calculateDistancePoints.test.js calculateStylePoints.test.js",
+      "test:watch": "onchange \"./*.js\" -- npm test",
+      "gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {},
+   "devDependencies": {
+      "mocha": "^6.2.0",
+      "onchange": "^6.0.0"
+   }
+}
